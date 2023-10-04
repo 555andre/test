@@ -1,0 +1,38 @@
+header.header
+  .container.header__container
+    .header__wrapper
+      .header__first-row
+        .header__logo-wrapper
+          img.header__logo(src="#", alt="Логотип")
+        form.header__form.form(action="#")
+          .form__input-wrapper
+            input.form__input(type="text", placeholder="Искать оборудование по артикулу")
+          .form__button-wrapper
+            button.form__button(type="submit")
+              img.form__button-icons(src="#", alt="Иконка поиска")
+              span.form__button-text Искать
+        .header__upper-menu-wrapper.upper-menu
+          ul.upper-menu__list
+            li.upper-menu__item
+              img.upper-menu__icon(src="#", alt="Иконка верхнего меню")
+              span.upper-menu__text ВОЙТИ
+            li.upper-menu__item
+              img.upper-menu__icon(src="#", alt="Иконка верхнего меню")
+              span.upper-menu__text ЗАКАЗЫ
+            li.upper-menu__item
+              img.upper-menu__icon(src="#", alt="Иконка верхнего меню")
+              span.upper-menu__text ИЗБРАННОЕ
+            li.upper-menu__item
+              img.upper-menu__icon(src="#", alt="Иконка верхнего меню")
+              span.upper-menu__text КОРЗИНА
+      .header__second-row.low-menu
+        ul.low-menu__pages.pages
+          li.pages__item
+            a.pages__link(href="#") О НАС
+          li.pages__item
+            a.pages__link(href="#") УСЛОВИЯ
+          li.pages__item
+            a.pages__link(href="#") КАТАЛОГ
+        .low-menu__buttons.buttons
+          a.button(href="#") НАПИСАТЬ
+          a.button(href="#") ПОЗВОНИТЬ
